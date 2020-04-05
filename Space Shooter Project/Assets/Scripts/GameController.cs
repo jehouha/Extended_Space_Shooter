@@ -90,6 +90,7 @@ public class GameController : MonoBehaviour
         if (score >= 100)
         {
             score = 100;
+            UpdateScore();
             gameOverText.text = "You Win";
             creditText.text = "Made by Julia Houha";
             gameOver = true;
